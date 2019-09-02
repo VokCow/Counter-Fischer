@@ -31,5 +31,4 @@ def CounterFischer(S,k):
         print('Therefore, lambda_k is the minimum egienvalue corresponding to these eigenvectors, lambda_k=lambda_',k,'= min(',vals[-k:],') = ',min(vals[-k:]))
         print('T is the eigenspace with dim n-k+1=',n,'-',k,'+',1,'=',kprim,', formed by the eigenvectors with smallest eigenvalues of the specturm, that is: ')
         print('T = span(',vecs[:,:kprim],')')
-        print('Therefore lambda_k the maximum eigenvalue corresponding to these eigenvectors \n lambda_k=lambda_2= min(',vals[:kprim],') = ',max(vals[:kprim]))
-
+        print('Therefore lambda_k the maximum eigenvalue corresponding to these eigenvectors \n lambda_k=lambda_',k,'= min(',vals[:kprim],') = ',max(vals[:kprim]))
